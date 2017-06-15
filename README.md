@@ -27,7 +27,7 @@ This should produce PISKaS binaries. You will need your own plotting program (li
 
 ## Usage
 
-You could run the example file PISKaS/models/predator/predator25.cka. In order to run a simulation of 100 time units, type
+You could run the example file [predator25.cka](https://github.com/DLab/PISKaS/blob/master/models/predator/predator25.cka). In order to run a simulation of 100 time units, type
 
 `mpirun -n 'num-of-compartments' PISKa -i predator25.cka -t 100 -p 1000 -sync-t 0.5 -o data_file`
 
