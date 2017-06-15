@@ -1,8 +1,8 @@
 <!--img src="http://www.pps.jussieu.fr/~jkrivine/homepage/Research_files/droppedImage.jpg" alt="KaSim logo" title="Stochastic Kappa Simulator" align="right" /-->
-# PISKa
+# PISKaS
 
-PISKa is a stochastic simulator for rule-based models written in an expanded version of [Kappa-Language](http://dev.executableknowledge.org/), which we call **Spatial Kappa** (see the [wiki](https://github.com/naxo100/PISKa/wiki) of this repository). 
-PISKa is directly based on (and forked from) the repository of the simulation software [KaSim](https://github.com/Kappa-Dev/KaSim). The main new features of PISKa are:
+PISKaS is a stochastic simulator for rule-based models written in an expanded version of [Kappa-Language](http://dev.executableknowledge.org/), which we call **Spatial Kappa** (see the [wiki](https://github.com/DLab/PISKaS/wiki) of this repository). 
+PISKaS is directly based on (and forked from) the repository of the simulation software [KaSim](https://github.com/Kappa-Dev/KaSim) v3.5. The main new features of PISKaS are:
 
   1. Models must be written in **Spatial Kappa**.
   2. Simulations will run using an MPI framework, where every compartment or cell (subcompartments defined with an array notation) use an independent core of the computing architecture.
