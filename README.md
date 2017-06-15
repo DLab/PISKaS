@@ -1,4 +1,3 @@
-<!--img src="http://www.pps.jussieu.fr/~jkrivine/homepage/Research_files/droppedImage.jpg" alt="KaSim logo" title="Stochastic Kappa Simulator" align="right" /-->
 # PISKaS
 
 PISKaS is a stochastic simulator for rule-based models written in an expanded version of [Kappa-Language](http://dev.executableknowledge.org/), which we call **Spatial Kappa** (see the [wiki](https://github.com/DLab/PISKaS/wiki) of this repository). 
@@ -31,7 +30,7 @@ You could run the example file [predator25.cka](https://github.com/DLab/PISKaS/b
 
 `mpirun -n 'num-of-compartments' PISKa -i predator25.cka -t 100 -p 1000 -sync-t 0.5 -o data_file`
 
-This will produce several (one for each compartment) data files of 1000 point (-p option) containing the trajectory that was produced during the simulation with synchronization step of 0.5 time units (ie. 200 synchronizations).
+This will produce several (one for each compartment) data files of 1000 point (-p option) containing the trajectory that was produced during the simulation with synchronization step of 0.5 time units (i.e. 200 synchronizations).
 
 ## Help
 
