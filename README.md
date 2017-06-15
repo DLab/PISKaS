@@ -26,9 +26,9 @@ This should produce PISKaS binaries. You will need your own plotting program (li
 
 ## Usage
 
-You could run the example file [predator25.cka](https://github.com/DLab/PISKaS/blob/master/models/predator/predator25.cka). In order to run a simulation of 100 time units, type
+You could run the example file [predator2x2.cka](https://github.com/DLab/PISKaS/blob/master/models/predator/predator2x2.cka). In order to run a simulation of 100 time units, type
 
-`mpirun -n 'num-of-compartments' PISKa -i predator25.cka -t 100 -p 1000 -sync-t 0.5 -o data_file`
+`mpirun -n 4 PISKa -i predator2x2.cka -t 100 -p 1000 -sync-t 0.5 -o data_file`
 
 This will produce several (one for each compartment) data files of 1000 point (-p option) containing the trajectory that was produced during the simulation with synchronization step of 0.5 time units (i.e. 200 synchronizations).
 
