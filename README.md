@@ -12,7 +12,7 @@ It is recomended to first read the pdf of KaSim reference manual (available [her
 
 ## Installation
 
-Intructions to install are in [wiki/Installation](https://github.com/DLab/PISKaS/wiki/Installation)
+Detailed intructions to install are in [wiki/Installation](https://github.com/DLab/PISKaS/wiki/Installation)
 
 To install you need the ocaml native compiler. To check whether you have it, type 
 
