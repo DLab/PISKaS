@@ -1,0 +1,3 @@
+[submodule "ocamlmpi"]
+	path = ocamlmpi
+	url = https://github.com/xavierleroy/ocamlmpi.git
